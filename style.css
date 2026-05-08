@@ -41,3 +41,25 @@ img {
     color: #97d1eb;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+    h3 {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    img {
+        width: 95%;
+    }
+
+}
