@@ -39,6 +39,7 @@ h3 {
     margin-top: 100px;
     font-size: 70px;
     color: #feffff;
+    animation: SlideUp 5s;
 }
 
 h1 {
@@ -46,6 +47,7 @@ h1 {
     color: #97d1eb;
     line-height: 0.8;
     text-shadow: 0 0 20px #97d1eb;
+    animation: SlideUp 2.5s;
 }
 
 h2 {
@@ -53,6 +55,7 @@ h2 {
     color: #fbfeff;
     line-height: 1;
     font-size: 50px;
+    animation: SlideUp 5s;
 }
 
 img {
@@ -61,6 +64,7 @@ img {
     height: auto;
     margin-top: 20px;
     box-shadow: 0 0 20px #97d1eb;
+    animation: ZoomIn 3s;
 }
 
 .A1 {
