@@ -47,7 +47,7 @@ h1 {
     color: #97d1eb;
     line-height: 0.8;
     text-shadow: 0 0 20px #97d1eb;
-    animation: SlideUp 2.5s;
+    animation: SlideUp 2s;
 }
 
 h2 {
@@ -55,7 +55,7 @@ h2 {
     color: #fbfeff;
     line-height: 1;
     font-size: 50px;
-    animation: SlideUp 5s;
+    animation: SlideUp 3s;
 }
 
 img {
