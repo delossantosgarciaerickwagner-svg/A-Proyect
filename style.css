@@ -3,6 +3,38 @@ body {
     background-color: hwb(221 6% 88%);
 }
 
+              @keyframes SlideUp {
+                     
+                     from {
+                            opacity: 0;
+                            transform: opacity(0);
+
+                     }
+
+                     to {
+                            opacity: 1;  
+                            transform: opacity(1);
+                     }
+
+                     
+              }
+
+                   @keyframes ZoomIn {
+                     
+                     from {
+                            opacity: 0;
+                           transform: scale(0);
+
+                     }
+
+                     to {
+                            opacity: 1;  
+                            transform: scale(1);
+                     }
+
+                     
+              }
+
 h3 {
     margin-top: 100px;
     font-size: 70px;
