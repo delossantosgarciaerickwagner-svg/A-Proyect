@@ -3,37 +3,33 @@ body {
     background-color: hwb(221 6% 88%);
 }
 
-              @keyframes SlideUp {
-                     
-                     from {
-                            opacity: 0;
-                            transform: opacity(0);
+@keyframes SlideUp {
 
-                     }
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
 
-                     to {
-                            opacity: 1;  
-                            transform: opacity(1);
-                     }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
-                     
-              }
+}
 
-                   @keyframes ZoomIn {
-                     
-                     from {
-                            opacity: 0;
-                           transform: scale(0);
+@keyframes ZoomIn {
 
-                     }
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
 
-                     to {
-                            opacity: 1;  
-                            transform: scale(1);
-                     }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 
-                     
-              }
+}
 
 h3 {
     margin-top: 100px;
